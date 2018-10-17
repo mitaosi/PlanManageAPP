@@ -408,7 +408,7 @@ public class main_activity extends Activity {
 			Log.d("checkID",""+id);
 		}
 
-		private void checkedChange(int checkedID, boolean isChecked)              //checkbox的状态处理 方法 标记事件是否完成
+		private void checkedChange(int checkedID, boolean isChecked)
 		{
 			if(isChecked==true)
 			{
@@ -456,7 +456,7 @@ public class main_activity extends Activity {
 
 			getID(selectID);
 
-			listItemView.check.setOnCheckedChangeListener(new OnCheckedChangeListener() {          //listitem点击事件
+			listItemView.check.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
 				@Override
 				public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {

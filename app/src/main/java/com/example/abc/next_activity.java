@@ -193,7 +193,8 @@ public class next_activity extends Activity {
 						this,
 						new DatePickerDialog.OnDateSetListener() {
 							public void onDateSet(DatePicker dp, int year,int month, int dayOfMonth) {
-								showdate.setText( year + "Year" + (month+1) + "Month" + dayOfMonth + "Day");
+								showdate.setText( year + "/" + (month+1) + "/" + dayOfMonth );
+								//showdate.setText( year + "Year" + (month+1) + "Month" + dayOfMonth + "Day");
 							}
 						},
 						c.get(Calendar.YEAR),

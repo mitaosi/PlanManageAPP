@@ -1,6 +1,5 @@
 package com.example.abc;
 import java.util.Calendar;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -183,8 +182,8 @@ public class editPage_activity extends Activity {
 			public void onClick(View v) {
 				pb.setVisibility(View.VISIBLE);
 				AlertDialog.Builder cancelConfirm=new AlertDialog.Builder(editPage_activity.this);
-				cancelConfirm.setTitle("Unsaved!");
-				cancelConfirm.setPositiveButton("No", new DialogInterface.OnClickListener() {
+				cancelConfirm.setTitle("Do you want to cancel?");
+				cancelConfirm.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
@@ -193,7 +192,7 @@ public class editPage_activity extends Activity {
 
 					}
 				});
-				cancelConfirm.setNegativeButton("continue", new DialogInterface.OnClickListener() {
+				cancelConfirm.setNegativeButton("Continue", new DialogInterface.OnClickListener() {
 
 					@Override
 					public void onClick(DialogInterface dialog, int which) {

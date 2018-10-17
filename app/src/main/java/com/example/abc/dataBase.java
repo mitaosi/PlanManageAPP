@@ -109,8 +109,6 @@ public class dataBase extends SQLiteOpenHelper{
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// TODO Auto-generated method stub
-		//String initsql="INSERT INTO " + TABLE_NAME + " values(1 ,'zhangsan','2013/5/22');";
-		//db.execSQL(initsql);
 		Log.d("executing","insert initsql");
 		String sql="DROP TABLE IF EXISTS " + TABLE_NAME;
 		db.execSQL(sql);

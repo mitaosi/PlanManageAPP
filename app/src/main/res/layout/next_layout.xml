@@ -62,7 +62,7 @@
             android:layout_above="@+id/time"
             android:layout_below="@+id/date"
             android:layout_toRightOf="@+id/editdate"
-            android:text="CHOOSE DATE" />
+            android:text="Choose Date" />
 
         <TextView
             android:id="@+id/time"
@@ -87,7 +87,7 @@
             android:layout_above="@+id/textView3"
             android:layout_below="@+id/time"
             android:layout_toRightOf="@+id/edittime"
-            android:text="CHOOSE TIME" />
+            android:text="Choose Time" />
 
         <TextView
             android:id="@+id/textView3"

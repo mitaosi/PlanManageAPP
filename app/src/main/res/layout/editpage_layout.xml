@@ -76,7 +76,7 @@
             android:layout_alignRight="@+id/choosetime"
             android:layout_below="@+id/date"
             android:layout_toRightOf="@+id/editdate"
-            android:text="CHOOSE Date"
+            android:text="CHOOSE"
             android:textSize="21dip" />
               
              <TextView
@@ -103,7 +103,7 @@
             android:layout_above="@+id/textView3"
             android:layout_below="@+id/time"
             android:layout_toRightOf="@+id/edittime"
-            android:text="CHOOSE Time"
+            android:text="CHOOSE"
             android:textSize="21dip" />
 
         <TextView
