@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -286,7 +285,7 @@ public class main_activity extends Activity {
 		displayInfo.setTitle("My Plan");
 		displayInfo.setIcon(R.drawable.ic_launcher);
 
-		displayInfo.setPositiveButton("Confirm", new DialogInterface.OnClickListener() {           //…Ë÷√œ˚œ¢¥∞ø⁄»∑∂®º¸µƒº‡Ã˝ ¬º˛
+		displayInfo.setPositiveButton("Confirm", new DialogInterface.OnClickListener() {           
 
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
@@ -313,16 +312,16 @@ public class main_activity extends Activity {
 		final String getlistid=getListID;
 		Log.d("test issss ",""+ItemID);
 		AlertDialog.Builder cancelConfirm=new AlertDialog.Builder(main_activity.this);
-		cancelConfirm.setTitle("Would you delete this£ø");
-		cancelConfirm.setPositiveButton("Cancel", new DialogInterface.OnClickListener() { //»°œ˚…æ≥˝
+		cancelConfirm.setTitle("Would you delete thisÔºü");
+		cancelConfirm.setPositiveButton("Cancel", new DialogInterface.OnClickListener() {
 
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
-				Toast.makeText(getApplicationContext(),"Success canceled£°",Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(),"Success canceledÔºÅ",Toast.LENGTH_SHORT).show();
 			}
 		});
 
-		cancelConfirm.setNegativeButton("DELETE", new DialogInterface.OnClickListener() { //»∑∂®…æ≥˝
+		cancelConfirm.setNegativeButton("DELETE", new DialogInterface.OnClickListener() { 
 
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
@@ -341,7 +340,7 @@ public class main_activity extends Activity {
 					Log.d("cm",SWITCH);
 				}
 				listViewAdapter.notifyDataSetChanged();
-				Toast.makeText(getApplicationContext(),"Deleted£°",Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(),"DeletedÔºÅ",Toast.LENGTH_SHORT).show();
 
 			}
 		});
